@@ -1,0 +1,50 @@
+.hero-home .hero-visual::before {
+    content: "AGRO\A SHIELD";
+    white-space: pre;
+
+    position: absolute;
+    left: 2%;
+    bottom: 10%;
+
+    font-size: clamp(4rem, 8vw, 8rem);
+    font-weight: 900;
+    line-height: 0.8;
+
+    color: #edf1ef;
+    z-index: 0;
+}
+
+.hero-home .hero-bottle {
+    position: relative;
+    z-index: 1;
+}
+
+.intro-band {
+    padding: 32px 0;
+}
+
+.intro-band .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.intro-band strong {
+    font-size: 1.05rem;
+}
+
+.intro-band span {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 760px) {
+    .intro-band .container {
+        display: block;
+    }
+
+    .intro-band .btn {
+        margin-top: 18px;
+    }
+}
