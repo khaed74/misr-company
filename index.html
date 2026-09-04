@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <title data-i18n="pageTitle">Home</title>
+    
+
+
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- Hero Image Preload -->
+    <link
+        rel="preload"
+        as="image"
+        href="assets/images/hero-bg.webp"
+        media="(min-width: 761px)"
+    >
+
+    <link
+        rel="preload"
+        as="image"
+        href="assets/images/hero-mobile.webp"
+        media="(max-width: 760px)"
+    >
+
+    <!-- Global Styles -->
+    <link
+        rel="stylesheet"
+        href="css/global.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/home.css"
+    
+    >
+
+</head>
+<body>
+
+    <!-- =========================================================
+         HEADER
+         Shared across all pages
+    ========================================================== -->
+
+    <header class="site-header">
+
+        <div class="container nav-wrap">
+
+            <!-- Logo -->
+
+            <a
+                class="brand"
+                href="index.html"
+                aria-label="MISR Company"
+            >
+                <img
+                    src="assets/images/misr-logo.png"
+                    alt="MISR Company"
+                >
+            </a>
+
+
+            <!-- Navigation -->
+
+            <nav
+                class="site-nav"
+                aria-label="Main Navigation"
+            >
+
+                <a
+                    href="index.html"
+                    aria-current="true"
+                    data-i18n="navHome"
+                >
+                    Home
+                </a>
+
+                <a
+                    href="about.html"
+                    data-i18n="navAbout"
+                >
+                    About
+                </a>
+
+                <a
+                    href="technology.html"
+                    data-i18n="navTechnology"
+                >
+                    Technology
+                </a>
+
+                <a
+                    href="process.html"
+                    data-i18n="navProcess"
+                >
+                    Process
+                </a>
+
+                <a
+                    href="quality.html"
+                    data-i18n="navQuality"
+                >
+                    Quality
+                </a>
+
+                <a
+                    href="products.html"
+                    data-i18n="navProducts"
+                >
+                    Products
+                </a>
+
+                <a
+                    href="contact.html"
+                    data-i18n="navContact"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- Navigation Actions -->
+
+            <div class="nav-actions">
+
+                <!-- Language Switch -->
+
+                <div
+                    class="lang-switch"
+                    role="group"
+                    aria-label="Language Switcher"
+                >
+
+                    <button
+                        type="button"
+                        data-lang="en"
+                        aria-label="English"
+                    >
+                        EN
+                    </button>
+
+                    <button
+                        type="button"
+                        data-lang="ar"
+                        aria-label="Arabic"
+                    >
+                        AR
+                    </button>
+
+                </div>
+
+
+                <!-- Mobile Menu -->
+
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Menu"
+                    aria-expanded="false"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================================
+         MAIN
+    ========================================================== -->
+
+    <main>
+
+        <!-- =====================================================
+             HOME HERO
+        ====================================================== -->
+
+        <section class="hero hero-home">
+
+            <div class="container hero-grid">
+
+                <div class="hero-copy reveal">
+
+                    <div class="hero-content">
+
+                        <h1
+                            data-en="The Next Generation of Agricultural Pesticide Packaging"
+                            data-ar="الجيل القادم من عبوات المبيدات الزراعية"
+                        >
+                            The Next Generation of Agricultural Pesticide Packaging
+                        </h1>
+
+                        <p
+                            data-en="A Strong Identity Uncompromised Protection"
+                            data-ar="هوية راسخة وحماية مؤكدة"
+                        >
+                            A Strong Identity Uncompromised Protection
+                        </p>
+
+                    </div>
+
+
+                    <!-- ==============================
+                         HERO ACTIONS
+                    =============================== -->
+
+                    <div class="hero-actions">
+
+                        <a
+                            class="btn btn-primary"
+                            href="contact.html"
+                            data-i18n="quote"
+                        >
+                            Request a Quote
+                        </a>
+
+                        <a
+                            class="btn btn-light"
+                            href="products.html"
+                            data-i18n="explore"
+                        >
+                            Explore Products
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- BRAND -->
+
+                <div class="footer-brand">
+
+                    <a
+                        href="index.html"
+                        class="footer-logo"
+                    >
+                        <img
+                            src="assets/images/misr-logo.png"
+                            alt="MISR PACK"
+                        >
+                    </a>
+
+                    <p data-i18n="footerTagline">
+                        FOR MANUFACTURING REQUIREMENTS, FILLING, AND PACKAGING.
+                    </p>
+
+                </div>
+<!-- LINKS -->
+
+<div class="footer-links">
+
+    <!-- COMPANY -->
+
+    <div class="footer-column">
+
+        <h2 data-i18n="footerCompany">
+            COMPANY
+        </h2>
+
+        <a
+            href="about.html"
+            data-i18n="navAbout"
+        >
+            About
+        </a>
+
+        <a
+            href="quality.html"
+            data-i18n="navQuality"
+        >
+            Quality
+        </a>
+
+        <a
+            href="contact.html"
+            data-i18n="navContact"
+        >
+            Contact Us
+        </a>
+
+    </div>
+
+                    <!-- PRODUCTS -->
+
+                    <div class="footer-column">
+
+                        <h4 data-i18n="footerProducts">
+                            PRODUCTS
+                        </h4>
+
+                        <a
+                            href="technology.html"
+                            data-i18n="navTechnology"
+                        >
+                            Technology
+                        </a>
+
+                        <a
+                            href="products.html"
+                            data-i18n="footerProductRange"
+                        >
+                            Product Range
+                        </a>
+
+                        <a
+                            href="process.html"
+                            data-i18n="footerProductionProcess"
+                        >
+                            Production Process
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BOTTOM -->
+
+                <div class="footer-bottom">
+
+                    <span
+                        class="footer-copy"
+                        data-i18n="copyright"
+                    >
+                        © 2026 MISR Company
+                    </span>
+
+                    <span class="footer-quote">
+                        Crafted by KZ
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
