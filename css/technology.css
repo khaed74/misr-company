@@ -1,7 +1,4 @@
-/* =========================================================
-   TECHNOLOGY PAGE — CREATIVE / PREMIUM
-   HTML CONTENT & STRUCTURE ARE UNCHANGED
-   ========================================================= */
+
 
 /* ---------- HERO ---------- */
 
@@ -223,10 +220,10 @@ main > .section {
     box-shadow: 0 20px 42px rgba(10,30,24,.10);
 }
 
-.label-type-card:hover::before,
-.label-type-featured::before {
+.label-type-card:hover::before {
     opacity: 1;
 }
+
 
 .label-type-card:hover::after {
     transform: scale(1.45);
